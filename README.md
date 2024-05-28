@@ -34,16 +34,16 @@ To get more familiarized with what FoxCharts can do, download the file above and
 
 Just start running DEMOSTART.PRG in the "Samples" folder.
 
-![](FoxCharts_1Donut.png)
-![](FoxCharts_2Line.png)
-![](FoxCharts_3multibar.png)
-![](FoxCharts_4monoch.png)
-![](FoxCharts_5Pie.png)
-![](FoxCharts_6Shapes.png)
-![](FoxCharts_7Stacked.png)
-![](FoxCharts_8Area.png)
-![](FoxCharts_FoxChartsNew_4.png)
-![](FoxCharts_FoxChartsNew_3.png)
+![](img/FoxCharts_1Donut.png)
+![](img/FoxCharts_2Line.png)
+![](img/FoxCharts_3multibar.png)
+![](img/FoxCharts_4monoch.png)
+![](img/FoxCharts_5Pie.png)
+![](img/FoxCharts_6Shapes.png)
+![](img/FoxCharts_7Stacked.png)
+![](img/FoxCharts_8Area.png)
+![](img/FoxCharts_FoxChartsNew_4.png)
+![](img/FoxCharts_FoxChartsNew_3.png)
 
 ## JRN FoxCharts Tools
 
@@ -51,7 +51,7 @@ This toolkit contains a couple of add-on tools not part of FoxCharts proper:
 * **VisualChartDesigner**: a tool which allows either the developer or an end user to make changes to the FoxCharts properties and see their immediate effect. VisualChartDesigner can be added to any existing chart by adding a single control to the FoxCharts container of a chart: cmdChartOptions of VisualChartDesigner.vcx
 * **GetChartDataFromRows**: a PRG to convert data series which originates in rows into the format that FoxCharts requires (where each data series is in a field).
 
-![](FoxCharts%20Tools_VisualChartDesigner.png)
+![](img/FoxCharts%20Tools_VisualChartDesigner.png)
 
 The JRN_FoxCharts_Tools folder contains the following items:
 * VisualChartDesigner.VCX
@@ -84,9 +84,9 @@ Start playing with the ChartsSample_ArrowsInLegend.scx form.
 - Click on the Side Legends, to see cool stripes 
 - Right-click the over the SideLegends to call the new SideLegends form, and play with the new possibilities!
 
-![](FoxChartsNew_4.png)
+![](img/FoxChartsNew_4.png)
 
-![](FoxChartsNew_3.png)
+![](img/FoxChartsNew_3.png)
 
 *Info for version 1.42 ALPHA*
 - all objects of chart react on mousemove showing its contour
