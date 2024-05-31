@@ -13,7 +13,7 @@ LPARAMETERS tnExportType, tcProperties, tcPictureObject
 * Create Foxcharts object
 LOCAL loChart
 IF NOT 'ALIAS FOXCHARTSBETa' $ SET('Class')
-	SET CLASSLIB TO Source\foxchartsbeta.VCX ADDI
+	SET CLASSLIB TO ..\Source\foxchartsbeta.VCX ADDI
 ENDIF
 loChart = CREATEOBJECT('foxchartsbeta.FoxCharts')
 
