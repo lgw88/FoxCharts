@@ -27,7 +27,7 @@ WITH loChart AS FoxCharts OF '..\FoxCharts\Source\FoxCharts.vcx'
 
 * Execute the SQL for the chart.
 
-	OPEN DATABASE HOME(1) + 'Samples\Northwind\Northwind'
+	OPEN DATABASE HOME(2) + '\Northwind\Northwind'
 	SELECT Categories.CategoryName, ;
 		SUM(OrderDetails.UnitPrice * OrderDetails.Quantity) AS Sales, ;
 		(SUM(OrderDetails.UnitPrice * OrderDetails.Quantity) / 2) AS Sales2 ;
